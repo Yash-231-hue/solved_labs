@@ -1,0 +1,40 @@
+OverTheWire Bandit - Concepts Breakdown
+======================================
+
+BEGINNER (Levels 0–9)
+---------------------
+- Filesystem navigation: ls, cd, pwd
+- File viewing: cat, head, tail, less
+- Hidden files & special filenames: spaces, '-' as filename
+- File permissions: ls -l basics
+- Basic searching: find, grep
+- Input/output redirection: >, <, |, >>
+- Working with simple passwords in files
+
+INTERMEDIATE (Levels 10–20)
+---------------------------
+- Data extraction: strings, xxd, cut, sort, uniq
+- File identification: file command (binary vs text)
+- Compression & archiving: tar, gzip, bzip2, xz
+- Encoding & decoding: Base64, ROT13, hex
+- Network basics: nc (netcat), telnet, openssl s_client
+- SSH key authentication: ssh -i private keys
+- Environment variables: secrets in env
+
+ADVANCED (Levels 21–34)
+-----------------------
+- Cron jobs: analyzing scheduled tasks for secrets
+- Process inspection: ps, checking running processes
+- Setuid binaries: exploiting executables with elevated privileges
+- Restricted shells: escape techniques (cat, more, vi, ssh -t)
+- Scripting attacks: bash loops, automation for brute force
+- Port knocking / tunneling concepts
+- Git exploitation: git log, git show, recovering deleted secrets
+- Automation & scripting: pipes and one-liners
+- Advanced networking: chained services, port redirections
+- Privilege escalation mindset: exploiting misconfigurations, weak cron, bad SSH configs
+
+Summary:
+Beginner = Linux basics
+Intermediate = File formats, compression, networking, encoding
+Advanced = System interaction, restricted shells, privilege escalation
